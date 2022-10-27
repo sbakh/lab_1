@@ -161,7 +161,9 @@ public class Country {
         country4.print();
         Country country5 = new Country("Singapore",725,5700000);
         country5.print();
+        System.out.println("плотность : " + country5.getDensity());
 
+        
         Country[] countries = new Country[]{country1,country2,country3,country4,country5};
         printAll(countries);
 
